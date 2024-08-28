@@ -11,6 +11,7 @@
 * [Side Notes](#side-notes)
 * [Resources](#resources)
 * [Other](#other)
+* [License](#license)
 
 
 ## About
@@ -20,9 +21,13 @@ Image Classification App for 46 food labels.
 
 ## General Information
 Image classification web app that can predict 46 different types of food given an input image.
-Model Label increment improvement. Increment from 10 to 46 labels with an accuracy of around 70%.
-The app uses a Feature Extractor (EfficientNet) to predict whether an image belongs to one of the trained food labels.
-To see all of the labels the model can predict see the class_names text file. Some of the food labels this model can predict are:
+
+The model was created using a Feature Extractor (EfficientNet) with its default weights and then trained on specific labels from a dataset of food labels (food101).
+This app can predict whether an image belongs to one of the trained food labels.
+
+The actual model had a label increment improvement increment that went from 10 to 46 labels with an accuracy of around 70%.
+
+Some of the food labels this model can predict are:
 - apple_pie
 - breakfast_burrito
 - club_sandwich
@@ -41,7 +46,8 @@ To see all of the labels the model can predict see the class_names text file. So
 - tacos
 - waffles
 
-(Please see 'data/class_names.txt' to see all the labels this model can be used for)
+Please see the 'class_names.txt' file located on data folder to see all the labels this model can be used for.
+
 
 <br>
 
@@ -84,7 +90,7 @@ For more information about this project please see 'main_report.pdf'. This repor
 ## Resources
 
 ##### Some of the resources used:
-*Note For the list of complete resources and aknowledgments please see 'main_report.pdf'.*
+*Note: For the list of complete resources and aknowledgments please see 'main_report.pdf'.*
 
 [EfficientNet](https://pytorch.org/vision/main/models/efficientnet.html)
 
@@ -105,3 +111,7 @@ For more information about this project please see 'main_report.pdf'. This repor
 Local Virtual Environment Information
 - Environment Name: venv_0151_Deployment_310_002
 - Python Version: 3.10.12
+
+
+## License
+MIT License
