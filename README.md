@@ -118,8 +118,11 @@ Local Virtual Environment Information
 ## Aknowledgement
 
 I would like to express my gratitude. To PyTorch for the amount of information and amount of work they have done. To Gradio for making deployment simple; To the people who created and released the dataset used (Food101).
+
 I would like to express my gratitude to Mr. Daniel Bourke, especially for the resources he has put available.
+
 Thank you to all who make information, resources and knowledge available, especially to everyone who do it without any paywall.
+
 Thank you to everyone who has contributed towards the improvement of this fascinating area of Artificial Intelligence.
 
 
