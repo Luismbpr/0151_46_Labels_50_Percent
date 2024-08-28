@@ -1,0 +1,344 @@
+————————————————————————————————————————————————
+Creation of Virtual Environments For Mac M1
+————————————————————————————————————————————————
+
+————————————————————————————————————————————————
+Creation of Virtual Environments For Mac M1 - This Worked
+————————————————————————————————————————————————
+
+————————————————————————————————————————————————
+Fast!! Creation of Virtual Environments For Mac M1 - This Worked
+————————————————————————————————————————————————
+gradio                           4.36.1
+gradio_client                    1.0.1
+huggingface-hub                  0.23.4
+ipykernel                        5.5.6
+ipython                          7.34.0
+Jinja2                           3.1.4
+joblib                           1.4.2
+jupyter-client                   6.1.12
+jupyter-console                  6.1.0
+jupyter_core                     5.7.2
+jupyter-server                   1.24.0
+jupyterlab_pygments              0.3.0
+jupyterlab_widgets               3.0.11
+numba                            0.58.1
+numpy                            1.25.2
+pandas                           2.0.3
+Pillow                           9.4.0
+protobuf                         3.20.3
+torch                            2.3.0+cu121
+torchaudio                       2.3.0+cu121
+torchinfo                        1.8.0
+torchmetrics                     1.4.0.post0
+torchsummary                     1.5.1
+torchtext                        0.18.0
+torchvision                      0.18.0+cu121
+tqdm                             4.66.4
+Werkzeug                         3.0.3
+
+
+/Users/luis/Documents/Proyects_To_Export/0151_FoodImageClassif_46_Labels_50_Percent/0151_FoodImageClassif_46_Labels_50_Percent_Github/
+
+/Users/luis/Documents/Proyects_To_Export/0151_FoodImageClassif_46_Labels_50_Percent/0151_FoodImageClassif_46_Labels_50_Percent_Github/
+
+/Users/luis/Documents/Proyects_To_Export/0151_FoodImageClassif_46_Labels_50_Percent/0151_FoodImageClassif_46_Labels_50_Percent_Github/
+
+venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github
+
+/Users/luis/Documents/Proyects_To_Export/0151_FoodImageClassif_46_Labels_50_Percent/0151_FoodImageClassif_46_Labels_50_Percent_Github/
+
+venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github
+
+
+'/Users/luis/Documents/Proyects_To_Export/0151_FoodImageClassif_46_Labels_50_Percent/0151_FoodImageClassif_46_Labels_50_Percent_Github/'
+
+
+venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github
+
+
+
+cd ~
+source start_miniforge.sh
+cd '/Users/luis/Documents/Proyects_To_Export/0151_FoodImageClassif_46_Labels_50_Percent/0151_FoodImageClassif_46_Labels_50_Percent_Github/'
+conda create --name venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github python=3.10.12
+conda activate venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github
+### Working version environment libraries versions
+pip install torch==2.4.0
+pip install torchaudio==2.4.0
+pip install torchinfo==1.8.0
+pip install torchvision==0.19.0
+pip install gradio==4.36.1
+pip install gradio_client==1.0.1
+pip install Pillow==9.4.0
+pip install ipykernel==6.29.4
+pip install ipython==7.34.0
+pip install joblib==1.4.2
+pip install numpy==1.25.2
+pip install pandas==2.0.3
+pip install tqdm==4.66.4
+
+
+
+
+### Previous, but on installation other versions were created
+pip install torch==2.3.0
+pip install torchaudio==2.3.0
+pip install torchinfo==1.8.0
+pip install torchvision==0.18.0
+pip install numpy==1.25.2
+pip install pandas==2.0.3
+pip install Pillow==9.4.0
+pip install gradio==4.36.1
+pip install gradio_client==1.0.1
+pip install ipykernel==5.5.6
+pip install ipython==7.34.0
+pip install joblib==1.4.2
+pip install numpy==1.25.2
+pip install pandas==2.0.3
+pip install Pillow==9.4.0
+pip install tqdm==4.66.4
+
+conda install nb_conda
+conda install ipykernel
+python -m ipykernel install --user --name ex --display-name "venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github"
+If the other Jupyter Kernel installation does not work use this one:
+ipython kernel install --user --name="venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github" --display-name "venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github"
+
+pip install jupyter
+
+------------------------------------------------------------------------------------
+
+
+
+pip3 install torch torchvision torchaudio
+pip install gradio
+
+conda install -c conda-forge -y pandas jupyter
+conda install -c conda-forge jupyter jupyterlab
+
+
+
+
+
+pip install torchmetrics
+pip install mlxtend## For plotting confusion matrix
+pip install tqdm
+
+conda install -c anaconda scikit-learn
+
+conda install -c anaconda seaborn statsmodels pickleshare pillow flask
+conda install -c conda-forge -y plotly
+conda install -c conda-forge -y dash
+pip install kaleido
+conda install -c bokeh bokeh
+conda install -c conda-forge fpdf2
+conda install -c conda-forge h5py
+conda install -c conda-forge imbalanced-learn
+conda install -c conda-forge xgboost
+pip install tensorboard
+
+
+
+
+
+
+Note: Did not installed these packages:
+conda install -c conda-forge keras
+conda install -c apple tensorflow-deps
+pip install tensorflow-macos
+pip install tensorflow-metal
+pip install tensorflow-datasets
+
+
+conda deactivate
+conda deactivate
+exit
+
+————————————————————————————————————————————————
+
+Name: venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github
+
+
+# Go to Root Home Folder
+$ cd ~
+$ pwd
+
+# Start Miniforge or Miniconda
+# Note: For M1 use miniforge
+$ source start_miniconda.sh
+$ source start_miniforge.sh
+
+# Go to Folder where Environment will be created
+$ cd '/Users/luis/Documents/Proyects_To_Export/0151_FoodImageClassif_46_Labels_50_Percent/0151_FoodImageClassif_46_Labels_50_Percent_Github/'
+
+# Create the virtual environment
+$ conda create --name venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github python=3.9
+
+# Activate the Virtual Environment
+$ conda activate venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github
+
+# Install TF and TF Metal
+$ conda install -c apple tensorflow-deps
+$ pip install tensorflow-macos
+$ pip install tensorflow-metal
+
+# Install Jupyter and Pandas
+$ conda install -c conda-forge -y pandas jupyter
+$ conda install -c conda-forge jupyter jupyterlab
+
+# Install scikit-learn
+$ conda install -c anaconda scikit-learn
+
+# Install PyTorch
+# From Pytorch website:# MacOS Conda binaries are for x86_64 only, for M1 please use wheels
+# conda install pytorch torchvision torchaudio -c pytorch
+# Note: Use This code below (Used this one)
+$ conda install -c pytorch pytorch
+# OR You can also Use
+$ conda install -c pytorch pytorch torchvision
+
+# To Create a Kernel inside Jupyter
+# First install nb_conda and ipykernel
+% conda install nb_conda
+% conda install ipykernel
+
+# Create the kernel for Jupyter Notebook
+$ python -m ipykernel install --user --name ex --display-name "venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github"
+
+# Open Jupyter Notebook
+$ jupyter notebook
+
+# After using it close Jupyter Notebook
+(venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github) luis@Luiss-MacBook-Pro venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github % conda deactivate
+
+# Deactivate Virtual Environment
+# Note: You will be in (base) either Miniforge or Miniconda
+(base) luis@Luiss-MacBook-Pro venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github % conda deactivate
+luis@Luiss-MacBook-Pro venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github % 
+
+
+
+# Source
+# This source helped
+
+How To Install TensorFlow on M1 Mac (The Easy Way)
+By Prabhat Kumar Sahu
+https://caffeinedev.medium.com/how-to-install-tensorflow-on-m1-mac-8e9b91d93706
+
+
+————————————————————————————————————————————————
+# Other Libraries and Packages to Install
+————————————————————————————————————————————————
+conda install -c anaconda -y seaborn
+conda install -c anaconda -y statsmodels
+conda install -c anaconda -y pickleshare
+conda install -c anaconda -y pillow
+conda install -c anaconda -y flask
+————————————————————————————————————————————————
+conda install -c anaconda -y seaborn statsmodels pickleshare pillow flask 
+conda install -c conda-forge -y h5py
+conda install -c conda-forge -y imbalanced-learn
+conda install -c conda-forge -y xgboost
+conda install -c conda-forge -y dash
+conda install -c conda-forge -y keras
+conda install -c conda-forge -y plotly
+
+conda install -c conda-forge -y h5py imbalanced-learn xgboost dash keras plotly
+————————————————————————————————————————————————
+pip install kaleido
+conda install -c bokeh bokeh
+conda install -c conda-forge fpdf2
+————————————————————————————————————————————————
+
+
+
+
+————————————————————————————————————————————————
+————————————————————————————————————————————————
+# Instructions To Use Virtual Environment
+————————————————————————————————————————————————
+————————————————————————————————————————————————
+
+
+
+# Go to Root or Home Folder
+$ cd ~
+$ pwd
+# Result: /Users/luis
+
+# Start Miniforge or Miniconda
+# Note: Use Miniforge for Mac M1
+# Note: You will see (base) after starting miniforge or miniconda
+$ source start_miniforge.sh
+# Result: (base) luis@Luiss-MacBook-Pro ~ %
+
+
+# Go to folder where Virtual environment was created
+$ cd '/Users/luis/Documents/Programming/Courses_Programming/0007 Financial Analysis for Management Consultants and Analysts/venv_venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github_Consultants/'
+
+# Print Working Directory
+$ pwd
+# Result: /Users/luis/Documents/Pythonn Projects/Venvironment_tests/venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github
+
+# Activate Virtual Environment
+$ conda activate venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github
+# Result: (venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github) luis@Luiss-MacBook-Pro venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github %
+
+# Use Jupyter Notebook
+$ Jupyter Notebook
+————————————————————————————————————————————————
+————————————————————————————————————————————————
+
+
+
+
+————————————————————————————————————————————————
+Fast way
+————————————————————————————————————————————————
+cd ~
+source start_miniforge.sh
+cd '/Users/luis/Documents/Proyects_To_Export/0151_FoodImageClassif_46_Labels_50_Percent/0151_FoodImageClassif_46_Labels_50_Percent_Github/'
+
+cd '/Users/luis/Documents/Proyects_To_Export/0151_FoodImageClassif_46_Labels_50_Percent/Food_Classification_46_Labels_50_Percent'
+
+conda activate venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github
+Jupyter Lab
+Jupyter Notebook
+
+% cd '/Users/luis/Documents/Proyects_To_Export/0151_FoodImageClassif_46_Labels_50_Percent/0151_FoodImageClassif_46_Labels_50_Percent_Github/0151_46_Labels_50_Percent/'
+
+
+cd '/Users/luis/Documents/Proyects_To_Export/0151_FoodImageClassification_46Labels/venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github/Deployment_Food_46_Labels_50_Percent/'
+
+conda deactivate
+conda deactivate
+exit
+
+
+
+————————————————————————————————————————————————
+————————————————————————————————————————————————
+See kernels
+jupyter kernelspec list
+python -m nb_conda_kernels list
+
+Delete Kernels
+jupyter kernelspec remove venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github
+jupyter kernelspec uninstall venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github
+python -m nb_conda_kernels remove venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github
+
+Delete virtual environment
+conda remove --name venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent_Github --all
+————————————————————————————————————————————————
+————————————————————————————————————————————————
+
+————————————————————————————————————————————————
+————————————————————————————————————————————————
+Helps Other Resources
+
+
+————————————————————————————————————————————————
+————————————————————————————————————————————————
+
+
