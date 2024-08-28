@@ -11,6 +11,7 @@
 * [Side Notes](#side-notes)
 * [Resources](#resources)
 * [Other](#other)
+* [Aknowledgement](#aknowledgement)
 * [License](#license)
 
 
@@ -105,12 +106,21 @@ For more information about this project please see 'main_report.pdf'. This repor
   year = {2014}
 }
 
+[Daniel Bourke's PyTorch For Deep Learning YouTube](https://www.youtube.com/watch?v=V_xro1bcAuA&t=4695s)
+
 
 ## Other
 
 Local Virtual Environment Information
 - Environment Name: venv_0151_Deployment_310_002
 - Python Version: 3.10.12
+
+## Aknowledgement
+
+I would like to express my gratitude. To PyTorch for the amount of information and amount of work they have done. To Gradio for making deployment simple; To the people who created and released the dataset used (Food101).
+I would like to express my gratitude to Mr. Daniel Bourke, especially for the resources he has put available.
+Thank you to all who make information, resources and knowledge available, especially to everyone who do it without any paywall.
+Thank you to everyone who has contributed towards the improvement of this fascinating area of Artificial Intelligence.
 
 
 ## License
