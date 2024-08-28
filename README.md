@@ -84,6 +84,7 @@ For more information about this project please see 'main_report.pdf'. This repor
 ## Resources
 
 ##### Some of the resources used:
+*Note For the list of complete resources and aknowledgments please see 'main_report.pdf'.*
 
 [EfficientNet](https://pytorch.org/vision/main/models/efficientnet.html)
 
