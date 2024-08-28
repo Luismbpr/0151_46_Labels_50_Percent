@@ -8,5 +8,5 @@
 Local_Environment_Working_Library_Versions/*
 /examples/.DS_Store
 
-class_names.txt
-venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent.txt
+/class_names.txt
+/venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent.txt
