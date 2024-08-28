@@ -1,13 +1,13 @@
 **/.DS_Store
 
-/Apps/*
-/Local_Environment_Working_Library_Versions/*
-/other/*
-/__pycache__/*
-/flagged/*
+Apps/*
 Local_Environment_Working_Library_Versions/*
-/examples/.DS_Store
-/readme_for_deployment/*
+other/*
+__pycache__/*
+flagged/*
+Local_Environment_Working_Library_Versions/*
+examples/.DS_Store
+readme_for_deployment/*
 
 /class_names.txt
 /venv_0151_Deployment_310_002_FoodImage_46_Labels_50_Percent.txt
